@@ -21,6 +21,25 @@
     color: white;
 }
 
+.contacto{
+    background-color: black;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.ul{
+    margin: 0;
+    color: white;
+    display: flex;
+    margin-right: 25px;
+    column-gap: 25px;
+    list-style-type: none;
+
+}
+
 .info{
     display: flex;
     margin: 42px;
@@ -88,10 +107,15 @@ footer{
     align-items: center;
     padding-left: 15px;
     margin-top: 130px;
+    justify-content: center;
 }
 
 .autor{
     color: white;
+}
+
+.crear{
+    align-self: center;
 }
 
 @media (max-width: 768px){
@@ -101,6 +125,9 @@ footer{
         margin-top: 60px;
     }
     .tarjeta{
+        margin-top: 25px;
+    }
+    .crear{
         margin-top: 25px;
     }
 }

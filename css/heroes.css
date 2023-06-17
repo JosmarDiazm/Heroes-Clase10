@@ -1,0 +1,139 @@
+.fondo{
+    background-color:#00669F;
+    width: 954px;
+    height: 832px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.nuevoheroe{
+    display: flex;
+    justify-content: center;
+}
+
+.derechos{
+        background:#00669F;
+        height: 51px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        margin-top: 30px;
+        justify-content: center;
+}
+
+.anadir{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.identidad{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    column-gap: 30px;
+}
+
+.name, .especie{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre2, .especies{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.dia{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    column-gap: 30px;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+}
+
+.nombre{
+    margin-bottom: 10px;
+}
+
+.species{
+    margin-bottom: 10px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha, .agregar{
+    margin-bottom: 10px;
+}
+
+.fechaorden{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    width: 300px;
+}
+
+.descripcion{
+    column-gap: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+.descrip{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.poderes{
+    width: 300px;
+}
+
+.personaje{
+    border-top: solid 1px red;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+button{
+    width: 460px;
+    height: 85px;
+    background-color: #1CD1B0;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold ;
+}
