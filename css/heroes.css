@@ -126,6 +126,10 @@
     width: 24px;
     height: 24px;
 }
+.checkbox:hover{
+    width: 30px;
+    height: 30px;
+}
 
 .final{
     display: flex;
@@ -143,6 +147,10 @@ button{
     font-weight: bold ;
 }
 
+.btn-add:hover{
+    background-color: #02283d;
+}
+
 .personaje-radio{
     display: flex;
     align-items: center;
@@ -152,4 +160,8 @@ button{
 .radio{
     width: 20px;
     height: 20px;
+}
+.radio:hover{
+    width: 25px;
+    height: 25px;
 }

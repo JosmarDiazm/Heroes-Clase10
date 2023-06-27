@@ -64,6 +64,11 @@
     left: 10px
 }
 
+.vector:hover{
+    width: 40px;
+    height: 35px;
+}
+
 .img{
     position: relative;
     display: flex;
@@ -99,6 +104,10 @@
     color: white;
 }
 
+.mas:hover{
+    background-color: #02283d;
+    width: 160px;
+}
 
 footer{
     background:#00669F;
@@ -117,6 +126,7 @@ footer{
 .crear{
     align-self: center;
 }
+
 
 @media (max-width: 768px){
     .info{
